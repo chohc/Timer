@@ -84,6 +84,7 @@ body {
   font-size: var(--font-size-xl);
   color: #fff;
   font-family: "Pretendard-Bold";
+  text-align: center;
 }
 
 .timer__btns {
@@ -95,13 +96,25 @@ body {
 
 button {
   width: 112px;
-  background-color: var(--navy);
   padding: 16px 8px;
   border-radius: 30px;
-
-  color: #617199;
+  color: #fff;
   font-size: var(--font-size-m);
   font-family: "Pretendard-Bold";
+}
+
+#startPauseBtn:disabled,
+#resetBtn:disabled {
+  color: #617199;
+  background-color: var(--navy);
+}
+
+#startPauseBtn {
+  background-color: var(--blue);
+}
+
+#resetBtn {
+  background-color: var(--pink);
 }
 
 footer {
