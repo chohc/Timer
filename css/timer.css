@@ -1,0 +1,109 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  font-family: "Pretendard-Regalar", sans-serif;
+  padding-top: 72px;
+  background: var(--bg-gradient);
+}
+
+/* header */
+
+.logo {
+  width: 244px;
+  margin-bottom: 60px;
+}
+
+/* main - timer */
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 400px;
+  border-radius: 16px;
+  padding: 48px 0.5rem 40px;
+  background: var(--timer-gradient);
+  box-shadow: var(--timer-shadow);
+  margin-bottom: 60px;
+}
+
+.timer__title {
+  font-family: "Pretendard-Bold";
+  font-size: var(--font-size-l);
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.timer .seperate {
+  width: 312px;
+  height: 2px;
+  background-color: #3d538a;
+  margin-bottom: 32px;
+}
+
+.timer__times {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.timeBox > label {
+  display: block;
+  text-align: center;
+  font-family: "Pretendard-Bold";
+  font-size: var(--font-size-s);
+  color: #a5b6ee;
+  margin-bottom: 4px;
+}
+
+.timeBox > input {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  background: var(--time-gradient);
+  border: 1px solid #354971;
+  font-size: var(--font-size-xl);
+  color: #fff;
+  font-family: "Pretendard-Bold";
+}
+
+.timer__btns {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 112px;
+  background-color: var(--navy);
+  padding: 16px 8px;
+  border-radius: 30px;
+
+  color: #617199;
+  font-size: var(--font-size-m);
+  font-family: "Pretendard-Bold";
+}
+
+footer {
+  color: #8596bf;
+}

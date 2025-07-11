@@ -1,0 +1,21 @@
+:root {
+  /* font-size */
+  --font-size-xl: 2.5rem;
+  --font-size-l: 1.5rem;
+  --font-size-m: 0.875rem;
+  --font-size-s: 0.75rem;
+
+  /* color */
+  --blue: #5180ff;
+  --green: #15c2b8;
+  --pink: #fb7099;
+  --navy: #324577;
+
+  /* gradient */
+  --time-gradient: linear-gradient(90deg, #4c65a0, #304577);
+  --timer-gradient: linear-gradient(90deg, #5572bb, #374b7c);
+  --bg-gradient: linear-gradient(90deg, #f0f4ff, #a5b6ee);
+
+  /* shadow */
+  --timer-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
